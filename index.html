@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Форма поиска</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="style.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+      <h1>Поиск</h1>
+      <form action="" method="GET">
+        <div class="form-block">
+          <p>Рейтинг магазина</p>
+          <div>
+            <label class="radio">
+              <input type="radio" name="min_rating" value="2"> 
+              <span class="radio__text">От</span>
+              <i class="material-icons" style="font-size:16px; color: orange;">star</i>
+              <i class="material-icons" style="font-size:16px; color: orange;">star</i>
+              <i class="material-icons" style="font-size:16px">star</i>
+              <i class="material-icons" style="font-size:16px">star</i>
+              <i class="material-icons" style="font-size:16px">star</i>
+            </label>
+          </div>
+          <div>
+            <label class="radio">
+              <input type="radio" name="min_rating" value="3"> 
+              <span class="radio__text">От</span> 
+              <i class="material-icons" style="font-size:16px; color: orange;">star</i>
+              <i class="material-icons" style="font-size:16px; color: orange;">star</i>
+              <i class="material-icons" style="font-size:16px; color: orange;">star</i>
+              <i class="material-icons" style="font-size:16px">star</i>
+              <i class="material-icons" style="font-size:16px">star</i>
+            </label>
+          </div>
+          <div>
+            <label class="radio">
+              <input type="radio" name="min_rating" value="4"> 
+              <span class="radio__text">От</span> 
+              <i class="material-icons" style="font-size:16px; color: orange;">star</i>
+              <i class="material-icons" style="font-size:16px; color: orange;">star</i>
+              <i class="material-icons" style="font-size:16px; color: orange;">star</i>
+              <i class="material-icons" style="font-size:16px; color: orange;">star</i>
+              <i class="material-icons" style="font-size:16px">star</i>
+            </label>
+          </div>
+          <div>
+            <label class="radio">
+              <input type="radio" name="min_rating" value="any" checked> 
+              <span class="radio__text">Любой</span> 
+            </label>
+          </div>
+        </div>
+        <div class="form-block">
+          <p>Цена, &#8381;</p>
+          <div class="range">
+            <div class="price-from">
+              <span class="range-text">от</span>
+              <input type="text" placeholder="1 004">
+            </div>
+            <div class="price-to">
+              <span class="range-text">до</span>
+              <input type="text" placeholder="149 000">
+            </div>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="shipping_inclusive" value="1">
+              <span class="checkbox__text">Цена с учетом доставки</span>
+            </label>
+          </div>
+        </div>
+        <div class="form-block">
+          <label class="checkbox">
+            <input type="checkbox" name="available" value="1">
+            <span class="checkbox__text">В продаже</span>
+          </label>
+        </div>
+        <div class="form-block market">
+          <label class="checkbox">
+            <input type="checkbox" name="market" value="1">
+            <span class="checkbox__text">Оплата на Маркете</span>
+            <p class="subtext">Вы получите товар или вам вернут деньги.<br><a href="#">Подробнее</a></p>
+          </label>
+          <img src="images/yandex.png" alt="Yandex">
+        </div>
+        <div class="form-block">
+          <p>Производитель</p>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="Apple">
+              <span class="checkbox__text">Apple</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="ASUS">
+              <span class="checkbox__text">ASUS</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="BQ">
+              <span class="checkbox__text">BQ</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="HTC">
+              <span class="checkbox__text">HTC</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="Huawei">
+              <span class="checkbox__text">Huawei</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="LG">
+              <span class="checkbox__text">LG</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="Meizu">
+              <span class="checkbox__text">Meizu</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="Nokia">
+              <span class="checkbox__text">Nokia</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="OnePlus">
+              <span class="checkbox__text">OnePlus</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="Samsung">
+              <span class="checkbox__text">Samsung</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="Sony">
+              <span class="checkbox__text">Sony</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="producer" value="Xiaomi">
+              <span class="checkbox__text">Xiaomi</span>
+            </label>
+          </div>
+        </div>
+        <div class="form-block">
+          <p>Диагональ экрана</p>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="diagonal" value="before 2" disabled>
+              <span class="checkbox__text disabled">до 2"</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="diagonal" value="2.1-2.9">
+              <span class="checkbox__text">2.1"-2.9"</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="diagonal" value="3-4">
+              <span class="checkbox__text">3"-4"</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="diagonal" value="4.1-4.9">
+              <span class="checkbox__text">4.1"-4.9"</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="diagonal" value="5-5.4">
+              <span class="checkbox__text">5"-5.4"</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="diagonal" value="from 5.5">
+              <span class="checkbox__text">5.5" и выше</span>
+            </label>
+          </div>
+        </div>
+        <div class="form-block">
+          <p>Разрешение экрана</p>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="resolution" value="1280x780">
+              <span class="checkbox__text">1280x780 (HD)</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="resolution" value="1920x1080">
+              <span class="checkbox__text">1920x1080 (Full HD)</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="resolution" value="320x240" disabled>
+              <span class="checkbox__text disabled">320x240</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="resolution" value="854x480">
+              <span class="checkbox__text">854x480</span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox">
+              <input type="checkbox" name="resolution" value="800x480">
+              <span class="checkbox__text">800x480</span>
+            </label>
+          </div>
+        </div>
+        <input type="submit" value="Применить">
+        <a href="#">Перейти ко всем фильтрам</a>
+      </form>
+    </body>
+</html>
